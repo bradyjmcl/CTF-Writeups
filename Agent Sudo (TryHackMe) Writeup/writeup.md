@@ -1,4 +1,4 @@
-# Agent Sudo - Tryhackme 
+# Agent Sudo - TryHackMe 
 
 ---
 
@@ -76,4 +76,4 @@ The exploit-db page, https://www.exploit-db.com/exploits/47502, gives a python e
 
 ![](./screenshots/root.png)
 
-As this was an easily rootable box, I didn't enumerate the flags beforehand, but their locations were easily guessable and seeing as no lateral movement was needed on this box, it's fine to just grab them as root after full compromise (not a viable first blood strategy, but this bad boy is dead 😁).
+As this was an easily rootable box, I didn't enumerate the flags beforehand, but their locations were easily guessable and seeing as no lateral movement was needed on this box, it's fine to just grab them as root after full compromise (not a viable first blood strategy, but this bad boy is dead 😁). Thanks to DesKel for the creation of this box!
