@@ -102,4 +102,8 @@ Using GTFOBins, I was able to source a command to escalate privileges exploiting
 
 ![](./screenshots/gtfobins.png)
 
-Using this command (slightly modified, because I wanted to use `bash` rather than `sh`) I was able to escalate to root. At this point I was able to prove compromise by reading the root.txt file, as well as the user.txt file that was in the web server directories. This was a very simple challenge, and I believe it would prove educational for the CTF beginners for whom it was designed. Thanks to ReddyyZ for the creation of this box!
+Using this command (slightly modified, because I wanted to use `bash` rather than `sh`) I was able to escalate to root. At this point I was able to prove compromise by reading the root.txt file, as well as the user.txt file that was in the web server directories. 
+
+![](./screenshots/rooted.png)
+
+This was a very simple challenge, and I believe it would prove educational for the CTF beginners for whom it was designed. Thanks to ReddyyZ for the creation of this box!
