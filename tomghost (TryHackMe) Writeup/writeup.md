@@ -70,4 +70,8 @@ Referencing GTFOBins, we can see that there is a well-known exploit for escalati
 
 ![](./screenshots/gtfobins.png)
 
-I slightly modified the exploit commands to get a `bash` shell instead of `sh` and also to run in a single line. After running this string of commands, I was able to escalate to root, where I was also able to escalate to root and read the root.txt and merlin's user.txt file. This was a fun proof of concept for CVE-2020-1938 (Ghostcat); thanks to stuxnet for the creation of this challenge!
+I slightly modified the exploit commands to get a `bash` shell instead of `sh` and also to run in a single line. After running this string of commands, I was able to escalate to root, where I was also able to escalate to root and read the root.txt and merlin's user.txt file. 
+
+![](./screenshots/rooted.png)
+
+This was a fun proof of concept for CVE-2020-1938 (Ghostcat); thanks to stuxnet for the creation of this challenge!
