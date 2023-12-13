@@ -80,4 +80,6 @@ After running `sudo nano` we can use the `Ctrl + R` and `Ctrl + X` commands to g
 
 I slightly modified the command to get a `bash` shell instead of `sh`, but this will get us a shell as root, and we can prove this by reading the root.txt file as before.
 
+![](./screenshots/nanoroot.png)
+
 Thanks to Fsociety2006 for the creation of this challenge. RIP Andre Braugher, July 1, 1962 - Dec 11, 2023.
