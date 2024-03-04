@@ -6,6 +6,8 @@ This is a writeup for the medium-level CTF "Querier" on Hack the Box. This room 
 
 I have found three distinct methods of escalating privileges on this machine at the time of writing, and I will demonstrate each of them as a standalone solution for the root flag.
 
+NOTE: I did have a couple of screenshots that didn't save properly my first time, so when I went back to get them, the IP of the victim machine was different. Try not to pay attention to the difference in IPs too much, as there is only one machine in this lab.
+
 ---
 
 ## Recon, Scanning, and Enumeration
