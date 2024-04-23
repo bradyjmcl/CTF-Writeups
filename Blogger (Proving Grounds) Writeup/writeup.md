@@ -2,7 +2,7 @@
 
 ---
 
-This is a writeup for the "Blogger" lab on Offensive Security's Proving Grounds. My YouTube walkthrough for this lab is coming soon, so keep an eye out for updates, as I'll be posting the link <here>. This lab is part of tjull's PWK V3 list, a well-known list of labs that are supposed to be similar in difficulty and approach to OSCP-level machines. This machine is available in the "Proving Grounds Play" section and is free to use. This lab is rated "easy" by the publishers, but "hard" by the community. I am documenting the process I used to find all information in this writeup **WITHOUT** including any flags, in the spirit of the game. However, following this process exactly should result in a full compromise of the target system.
+This is a writeup for the "Blogger" lab on Offensive Security's Proving Grounds. My YouTube walkthrough for this lab is at https://youtu.be/2iw_bDwDBp8, so you can watch these commands run in real time! This lab is part of tjull's PWK V3 list, a well-known list of labs that are supposed to be similar in difficulty and approach to OSCP-level machines. This machine is available in the "Proving Grounds Play" section and is free to use. This lab is rated "easy" by the publishers, but "hard" by the community. I am documenting the process I used to find all information in this writeup **WITHOUT** including any flags, in the spirit of the game. However, following this process exactly should result in a full compromise of the target system.
 
 ---
 
