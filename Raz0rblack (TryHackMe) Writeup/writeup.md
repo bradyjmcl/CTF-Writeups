@@ -1,8 +1,8 @@
-# Raz0rblack - Tryhackme 
+# RazorBlack - Tryhackme 
 
 ---
 
-This is a writeup for the medium-level CTF "Raz0rblack" on TryHackMe. Be on the lookout for my video walkthrough, coming soon and will be linked here! This room is located at https://tryhackme.com/r/room/raz0rblack and is a free room. I am documenting the process I used to find all information in this writeup **WITHOUT** including any flags, in the spirit of the game. However, following this process exactly should result in a full compromise of the target system.
+This is a writeup for the medium-level CTF "RazorBlack" on TryHackMe. Be on the lookout for my video walkthrough, coming soon and will be linked here! This room is located at https://tryhackme.com/r/room/raz0rblack and is a free room. I am documenting the process I used to find all information in this writeup **WITHOUT** including any flags, in the spirit of the game. However, following this process exactly should result in a full compromise of the target system.
 
 Another note - this lab is objective based, but I will show the most direct way to domain compromise first, and then clean up the rest of the objectives at the end.
 
