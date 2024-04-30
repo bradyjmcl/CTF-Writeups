@@ -54,7 +54,7 @@ Since we don't yet have credentials, we can use Kerbrute (https://github.com/rop
 
 ![](./screenshots/kerbrute.png)
 
-Since one of the users, twilliams, does not require Kerberos pre-authentication, we can perform an AS-REP roasting attack to extract a KRB5TGT hash for the user:
+Since one of the users, twilliams, does not require Kerberos pre-authentication, we can perform an AS-REP roasting attack to extract a KRB5ASREP hash for the user:
 
 ![](./screenshots/asrep.png)
 
