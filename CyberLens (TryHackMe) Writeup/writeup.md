@@ -46,13 +46,13 @@ We can confirm that there is indeed a service running on port 61777, and interes
 
 A quick Google search shows that there is a command injection vulnerability in Apache Tika. When your first result on an exploit search is from Rapid7, there's a good chance that there's a Metasploit module for the exploit you are researching, and that is the case for us. We won't use it for this writeup, but if you are only interested in the quick points, this exploit is very point-and-click. 
 
-Note also that there is [an article from Rhino Security Labs](https://rhinosecuritylabs.com/application-security/exploiting-cve-2018-1335-apache-tika/), written by the researcher, David Yesland, and discussing in depth the discovery and mechanics of the vulnerability. This is worth a read.
+Note also that there is [an article from Rhino Security Labs](https://rhinosecuritylabs.com/application-security/exploiting-cve-2018-1335-apache-tika/){:target="_blank"}, written by the researcher, David Yesland, and discussing in depth the discovery and mechanics of the vulnerability. This is worth a read.
 
 Finally, we can see that exploit code has been posted to Github, which is an OSCP-friendly route, if you're trying to practice saving your Metasploit usage:
 
 ![](./screenshots/googletika.png)
 
-I ended up using the exploit from [the Rhino Security Labs github](https://github.com/RhinoSecurityLabs/CVEs/tree/master/CVE-2018-1335), written by David Yesland and adapted to python3 by Tyler Ramsbey (the creator of this lab). I had a couple of minor issues with the current version of the script, so I have [a forked version](https://github.com/bradyjmcl/Rhino-Sec-CVEs/blob/bradyjmcl-patch-1/CVE-2018-1335/CVE-2018-1335.py) that I will use for this demonstration.
+I ended up using the exploit from [the Rhino Security Labs github](https://github.com/RhinoSecurityLabs/CVEs/tree/master/CVE-2018-1335){:target="_blank"}, written by David Yesland and adapted to python3 by Tyler Ramsbey (the creator of this lab). I had a couple of minor issues with the current version of the script, so I have [a forked version](https://github.com/bradyjmcl/Rhino-Sec-CVEs/blob/bradyjmcl-patch-1/CVE-2018-1335/CVE-2018-1335.py){:target="_blank"} that I will use for this demonstration.
 
 After reviewing the script, we can see that it takes three arguments - the IP address, the Tika port, and the command that we want to run. Since our command will be multiple arguments, we will need to wrap it in quotes. I will be using the "PowerShell #3 (Base64)" payload from revshells.com:
 
