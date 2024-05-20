@@ -2,7 +2,7 @@
 
 ---
 
-This is a writeup for the easy CTF "CyberLens" on TryHackMe. If you prefer video, I also have [a video walkthrough of this room](https://youtu.be/5tyKwulXAiw) on YouTube! This room is located at https://tryhackme.com/r/room/cyberlensp6 and is a free room. I am documenting the process I used to find all information in this writeup **WITHOUT** including any flags, in the spirit of the game. However, following this process exactly should result in a full compromise of the target system.
+This is a writeup for the easy CTF "CyberLens" on TryHackMe. If you prefer video, I also have [a video walkthrough of this room](https://youtu.be/q6mFIJwlqn4) on YouTube! This room is located at https://tryhackme.com/r/room/cyberlensp6 and is a free room. I am documenting the process I used to find all information in this writeup **WITHOUT** including any flags, in the spirit of the game. However, following this process exactly should result in a full compromise of the target system.
 
 Finally, this room is easily solved using Metasploit, and this is far simpler and likely the best way to solve. However, as this is intended to be an OSCP-like lab, I will be presenting this writeup without the use of Metasploit.
 
