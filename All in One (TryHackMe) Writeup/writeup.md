@@ -8,7 +8,7 @@ This is a write-up for the easy CTF "All in One" on TryHackMe. This is a free ro
 
 ## Recon, Scanning, and Enumeration
 
-My first step was to export the box's IP address to a variable that I could use easily for the rest of the engagement. Next, I pinged the box to ensure that it was alive and ready for enumeration:
+My first step was to ping the box to ensure that it was alive and ready for enumeration:
 
 ![](./screenshots/ping.png)
 
